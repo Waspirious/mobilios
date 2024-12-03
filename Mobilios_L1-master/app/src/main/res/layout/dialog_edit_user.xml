@@ -1,0 +1,31 @@
+<!-- res/layout/dialog_edit_user.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextMacAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MAC Address" />
+
+    <EditText
+        android:id="@+id/editTextSignalStrength1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Signal Strength 1" />
+
+    <EditText
+        android:id="@+id/editTextSignalStrength2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Signal Strength 2" />
+
+    <EditText
+        android:id="@+id/editTextSignalStrength3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Signal Strength 3" />
+</LinearLayout>

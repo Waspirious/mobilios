@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextMacAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="MAC Address" />
+
+    <EditText
+        android:id="@+id/editTextSignalStrength1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Signal Strength 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextSignalStrength2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Signal Strength 2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextSignalStrength3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Signal Strength 3"
+        android:inputType="number" />
+</LinearLayout>
